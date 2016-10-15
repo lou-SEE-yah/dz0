@@ -3,8 +3,8 @@
 
 #Pitanje 1:
 U folderu su dva nova filea, ClassLibrary1.dll i ClassLibrary1.pdb.
-Ako pobrišem dll, aplikacija se ne može pokrenuti jer ne može loadati ClassLibrary1 kojeg 
-koristimo u konzolnoj aplikaciji.
+Ako pobrišem dll, aplikacija se ne može pokrenuti jer ne može loadati klasu iz ClassLibrary1 
+koju koristimo u konzolnoj aplikaciji jer ne zna gdje bi ju tražio.
 Da bi se program uspješno pokrenuo uz exe datoteku treba poslati i ClassLibrary1.dll
 (ostale datoteke unutar debug foldera nisu nužne za pokretanje konzolne aplikacije).
 
